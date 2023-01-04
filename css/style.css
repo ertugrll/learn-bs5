@@ -1,3 +1,16 @@
 body {
   background-color: #faf9f6;
 }
+
+.tstbox {
+  background-color: blueviolet;
+  height: 50px;
+  margin: 30px 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.tstbox span {
+  color: white;
+  align-self: center;
+}
