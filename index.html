@@ -18,28 +18,40 @@
   </head>
   <body>
     <div class="container">
-      <div class="row h-10 bg-warning justify-content-start mb-3">
-        <div class="col-md-2">
-          <div class="bg-primary p-3 text-white">column</div>
+      <!-- Reordering columns -->
+      <div class="row justify-content-center">
+        <div class="col-md-3 order-3">
+          <div class="bg-primary text-white p-3 mb-3">column 3</div>
         </div>
-        <div class="col-md-2">
-          <div class="bg-primary p-3 text-white">column</div>
+        <div class="col-md-3 order-1">
+          <div class="bg-primary text-white p-3 mb-3">column 1</div>
+        </div>
+        <div class="col-md-3 order-2">
+          <div class="bg-primary text-white p-3 mb-3">column 2</div>
+        </div>
+        <div class="col-md-3 order-5">
+          <div class="bg-primary text-white p-3 mb-3">column 5</div>
+        </div>
+        <div class="col-md-3 order-4">
+          <div class="bg-primary text-white p-3 mb-3">column 4</div>
         </div>
       </div>
-      <div class="row h-10 bg-warning justify-content-center mb-3">
+
+      <!-- Dividing rows with w-100 -->
+      <div class="row">
         <div class="col-md-2">
-          <div class="bg-primary p-3 text-white mb-3">column</div>
+          <div class="bg-info text-white p-3 mb-3">column</div>
         </div>
         <div class="col-md-2">
-          <div class="bg-primary p-3 text-white mb-3">column</div>
+          <div class="bg-info text-white p-3 mb-3">column</div>
         </div>
-      </div>
-      <div class="row h-10 bg-warning justify-content-around">
+        <!-- This splits the row after 2 columns when placed after the 2nd column -->
+        <div class="w-100"></div>
         <div class="col-md-2">
-          <div class="bg-primary p-3 text-white mb-3">column</div>
+          <div class="bg-info text-white p-3 mb-3">column</div>
         </div>
         <div class="col-md-2">
-          <div class="bg-primary p-3 text-white mb-3">column</div>
+          <div class="bg-info text-white p-3 mb-3">column</div>
         </div>
       </div>
     </div>
